@@ -1,0 +1,226 @@
+/* Start Font */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* End Font */
+
+/* Start Body */
+body {
+    color: #24292e;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+/* End Heading */
+
+/* Start Anchor / Hyperlink */
+a:link, a:visited {
+    color: #0366d6;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: #000000;
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Debug */
+.bg-blue {
+    background-color: blue;
+}
+.bg-red {
+    background-color: red;
+}
+/* End Debug */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Atas */
+.menu-atas ul {
+    background-color: #333;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+.menu-atas li {
+    border-right: 1px solid #d1d5da;
+    display: inline-block;
+    margin: 0 -4px;
+}
+.menu-atas a {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.menu-atas a:hover {
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+}
+/* End Menu Atas */
+
+/* Start Form */
+input[type="text"],
+input[type="email"],
+textarea {
+    font-size: 14px;
+    padding: 10px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #d1d5da;
+}
+
+input[type="submit"] {
+    background-color: #e6ebf1;
+    border-color: #d1d5da;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+/* End Form */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.container-full {
+    margin: 10px auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Jumbotron */
+.jumbotron {
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbotron h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbotron h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/* End Jumbotron */
+
+/* Start Box */
+.box-heading {
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-sub-heading {
+    text-transform: uppercase;
+}
+.box-isi {
+    background-color: #ffffff;
+    border: 1px solid #eaecef;
+    border-top: 0;
+    margin: 0;
+    padding: 10px 20px;
+}
+/* End Box */
+
+/* Start Testimonial */
+.testimonial blockquote p {
+    border-left: 4px solid #dfe2e5;
+    margin-left: 30px;
+    padding-left: 20px;
+}
+/* End Testimonial */
+
+/* Start Contact */
+.contact-form div {
+    margin: 20px auto;
+}
+/* End Contact */
+
+/* Start Menu Bawah */
+.menu-bawah {
+    background-color: #f6f8fa;
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+}
+.menu-bawah h6 {
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-bawah ul {
+    padding: 0;
+}
+.menu-bawah li {
+    display: block;
+}
+.menu-bawah li a,
+.menu-bawah p {
+    display: block;
+    font-size: 15px;
+}
+
+.menu-bawah-one,
+.menu-bawah-two,
+.menu-bawah-three {
+    float: left;
+}
+.menu-bawah-one {
+    width: 40%;
+}
+.menu-bawah-two,
+.menu-bawah-three {
+    float: left;
+    width: 30%;
+}
+
+.menu-bawah li img {
+    vertical-align: middle;
+}
+/* End Menu Bawah */
+
+/* Start Copyright */
+.copyright p {
+    font-size: 15px;
+}
+/* End Copyright */
