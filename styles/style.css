@@ -100,7 +100,9 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-    color: #d1d5da;
+    color: #888888;
+    font-weight: 300;
+
 }
 
 input[type="submit"] {
@@ -149,6 +151,9 @@ input[type="submit"] {
     margin: 0;
     padding: 10px 20px;
     text-transform: uppercase;
+}
+.box-heading h6 {
+    margin: 0;
 }
 .box-sub-heading {
     text-transform: uppercase;
